@@ -1,0 +1,29 @@
+apply plugin: 'java'
+
+configurations {
+    provided
+}
+
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    def domainDependencies = rootProject.ext.domainDependencies
+    def domainTestDependencies = rootProject.ext.domainTestDependencies
+
+    provided domainDependencies.javaxAnnotation
+
+    compile domainDependencies.javaxInject
+    compile domainDependencies.rxJava
+
+    compile domainDependencies.gson
+//    compile domainDependencies.json
+
+    testCompile domainTestDependencies.junit
+    testCompile domainTestDependencies.mockito
+}
