@@ -1,1 +1,1 @@
-include ':presentation', ':domain', ':data', ':data2'
+include ':gspresentation', ':domain', ':data'

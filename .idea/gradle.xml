@@ -9,18 +9,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/data" />
-            <option value="$PROJECT_DIR$/data2" />
             <option value="$PROJECT_DIR$/domain" />
-            <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/gspresentation" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/data" />
-            <option value="$PROJECT_DIR$/data2" />
             <option value="$PROJECT_DIR$/domain" />
-            <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/gspresentation" />
           </set>
         </option>
       </GradleProjectSettings>

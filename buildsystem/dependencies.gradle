@@ -45,6 +45,11 @@ ext {
     //Development
     leakCanaryVersion = '1.3.1'
 
+    //DB
+    greenDaoVersion =  '3.2.0'
+    greenDaoGeneratorVersion = '3.2.0'
+//    greenDaoPluginVersion = '+'
+
     presentationDependencies = [
             daggerCompiler:     "com.google.dagger:dagger-compiler:${daggerVersion}",
             dagger:             "com.google.dagger:dagger:${daggerVersion}",
@@ -91,7 +96,12 @@ ext {
             retrofit:           "com.squareup.retrofit2:retrofit:${retrofitVersion}",
             loggingInterceptor: "com.squareup.okhttp3:logging-interceptor:${logginginterceptorVersion}",
             convertGson:        "com.squareup.retrofit2:converter-gson:$convertGsonVersion",
-            adapterRxjava:      "com.squareup.retrofit2:adapter-rxjava:${adapterRxjavaVersion}"
+            adapterRxjava:      "com.squareup.retrofit2:adapter-rxjava:${adapterRxjavaVersion}",
+
+            //DB
+            greenDao:           "org.greenrobot:greendao:${greenDaoVersion}",
+//            greenDaoPlugin:     "org.greenrobot:greendao-gradle-plugin:${greenDaoPluginVersion}"
+            greenDaoGenerator:  "org.greenrobot:greendao-generator:${greenDaoGeneratorVersion}"
     ]
 
     dataTestDependencies = [
