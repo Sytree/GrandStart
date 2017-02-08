@@ -3,4 +3,17 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="gsMainBackground">#FAFAFA</color>
+    <color name="gsDevider">#EAEBEC</color>
+
+    <!--字体颜色-->
+    <color name="gsMainDraw">#37474F</color>
+    <color name="gsMainText">#505F66</color>
+    <color name="gsSecondaryText">#A0A8AC</color>
+    <color name="gsHintText">#D2D6D8</color>
+
+    <color name="gsOprationText">#48B6AC</color>
 </resources>

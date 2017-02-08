@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/gspresentation/gspresentation.iml" filepath="$PROJECT_DIR$/gspresentation/gspresentation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gspresentation/presentation.iml" filepath="$PROJECT_DIR$/gspresentation/presentation.iml" />
     </modules>
   </component>
 </project>

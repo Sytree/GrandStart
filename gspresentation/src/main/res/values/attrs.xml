@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GsClockView">
+        <attr name="state_textSize" format="integer"></attr>
+        <attr name="plan_textSize" format="integer"></attr>
+        <attr name="clock_time_textSize" format="integer"></attr>
+        <attr name="plan_time_textSize" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="GsEditText">
+        <attr name="underLine_color" format="color"></attr>
+        <attr name="floatLabel_textSize" format="dimension"></attr>
+        <attr name="floatLabel_textColor" format="color"></attr>
+        <attr name="floatLabel_text" format="string"></attr>
+    </declare-styleable>
+</resources>

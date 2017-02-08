@@ -8,4 +8,97 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--取消自带专场动画-->
+    <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/noAnimation</item>
+    </style>
+
+    <style name="noAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+
+        <item name="android:activityOpenExitAnimation">@null</item>
+
+        <item name="android:activityCloseEnterAnimation">@null</item>
+
+        <item name="android:activityCloseExitAnimation">@null</item>
+
+        <item name="android:taskOpenEnterAnimation">@null</item>
+
+        <item name="android:taskOpenExitAnimation">@null</item>
+
+        <item name="android:taskCloseEnterAnimation">@null</item>
+
+        <item name="android:taskCloseExitAnimation">@null</item>
+
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+
+        <item name="android:taskToFrontExitAnimation">@null</item>
+
+        <item name="android:taskToBackEnterAnimation">@null</item>
+
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <!--主画布,最外层page-->
+    <style name="GsMainCanvas" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:padding">@dimen/gs_main_padding</item>
+        <item name="android:background">@color/gsMainBackground</item>
+    </style>
+    
+    <!--屏幕中心,单一窗口-->
+    <style name="GsMainSinglewindow">
+        <item name="android:layout_marginLeft">@dimen/gs_special_margin</item>
+        <item name="android:layout_marginRight">@dimen/gs_special_margin</item>
+        <item name="android:paddingRight">@dimen/gs_special_padding</item>
+        <item name="android:paddingTop">@dimen/gs_main_padding</item>
+        <item name="android:paddingBottom">@dimen/gs_special_padding</item>
+    </style>
+    
+    <!--大标识 文字 lable-->
+    <style name="GsMainLable">
+        <item name="android:layout_marginLeft">@dimen/gs_main_margin</item>
+        <item name="android:layout_marginRight">@dimen/gs_main_margin</item>
+        <item name="android:layout_marginTop">@dimen/gs_secondary_margin</item>
+        <item name="android:layout_marginBottom">@dimen/gs_secondary_margin</item>
+        <item name="android:textSize">@dimen/gs_main_lable_textsize</item>
+        <item name="android:textColor">@color/gsMainDraw</item>
+    </style>
+    
+    <!--操作提醒 文字 标识 lable-->
+    <style name="GsOperationLable">
+        <item name="android:textSize">@dimen/gs_big_title_textsize</item>
+        <item name="android:textColor">@color/gsOprationText</item>
+    </style>
+
+    <!--主图标-->
+    <style name="GSMainIcon">
+        <item name="android:width">@dimen/gs_main_icon</item>
+        <item name="android:height">@dimen/gs_main_icon</item>
+    </style>
+
+    <!--标题-->
+    <style name="GslableTitle">
+        <item name="android:textSize">@dimen/gs_big_title_textsize</item>
+        <item name="android:textColor">@color/gsMainDraw</item>
+    </style>
+
+    <!--副标题-->
+    <style name="GsLableSencondaryTitle">
+        <item name="android:textSize">@dimen/gs_small_title_textsize</item>
+        <item name="android:textColor">@color/gsSecondaryText</item>
+    </style>
+
+    <!--可编辑项 引导标题 主-->
+    <style name="GsEditMainLabel">
+        <item name="android:textColor">@color/gsOprationText</item>
+        <item name="android:textSize">@dimen/gs_big_title_textsize</item>
+    </style>
+
+    <!--可编辑项 引导标题 副-->
+    <style name="GsEditSecondaryLabel">
+        <item name="android:textSize">@dimen/gs_title_textsize</item>
+        <item name="android:textColor">@color/gsOprationText</item>
+    </style>
 </resources>

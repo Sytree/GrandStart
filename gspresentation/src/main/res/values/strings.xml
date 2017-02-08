@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">GrandStart</string>
+
+    <!--标识-->
+    <string name="year_lable">年</string>
+    <string name="month_lable">月</string>
+    <string name="day_lable">日</string>
+
+    <!--单位-->
+    <string name="year_unit">年</string>
+    <string name="month_unit">月</string>
+    <string name="day_unit">天</string>
+
+    <string name="daytobegain">开始这一天?</string>
+
+    <!--日常编辑 标题-->
+    <string name="custom_label_title">日常标题</string>
+
+
 </resources>
